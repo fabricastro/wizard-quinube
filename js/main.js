@@ -36,4 +36,14 @@ $(function(){
         showOn: "both",
         buttonText : '<i class="zmdi zmdi-chevron-down"></i>',
     });
+    document.addEventListener('DOMContentLoaded', function() {
+        const buttons = document.querySelectorAll('.option-button');
+    
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                buttons.forEach(btn => btn.classList.remove('selected'));
+                this.classList.add('selected');
+            });
+        });
+    });
 });
