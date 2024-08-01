@@ -154,7 +154,7 @@ body {
     -ms-border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    background: #ccc;
+    background: #F58634;
     margin: 0 auto;
     position: relative;
     outline: none;
@@ -201,12 +201,12 @@ body {
 .form-register .steps li.current a:active .step-icon,
 .form-register .steps li.done a .step-icon,
 .form-register .steps li.done a:active .step-icon {
-    background: #24c1e8;
+    background: #032B44;
 }
 .form-register .steps .current .step-icon::before,
 .form-register .steps .current:last-child .step-icon::after,
 .form-register .steps .done .step-icon::before {
-	background: #24c1e8;
+	background: #032B44;
 }
 .form-register .steps li a .step-text {
 	color: #999;
@@ -513,17 +513,17 @@ body {
     -moz-align-items: center;
     -webkit-align-items: center;
     align-items: center;
-    background: #24c1e8;
+    background: #F58634;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
 }
 .actions ul li:hover {
-	background: #1d97b5;
+	background: #f77b24;
 }
 .actions ul li:first-child {
-	background: #999;
+	background: #00AA98;
     margin-left: 60.9%;
 }
 .actions ul li:first-child:hover {
